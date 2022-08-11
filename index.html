@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title> Mundo Deportivo </title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>	
+
+<style> 
+.jumbotron {
+     background-color: #d3a5eb;
+	 color: #ffffff;
+	 padding: 100px 25px;
+	 font-family: sans-serif;
+	 text-align: center
+	 }
+.container-fluid {
+     padding: 100px 100px;
+	 }
+.bg-grey {
+     background-color: #b1beeb
+	 }
+html, body{
+	margin: 0;
+	padding: 0;
+	}	
+body{
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	letter-spacing: 0.03em;
+	line-height: 1.6;
+	}
+.container-fluid {
+     padding: 50px 50px;
+	 }
+
+.container .card{
+	width: 200px;
+	height: 200px;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	overflow: hidden;
+	margin: 10px;
+	text-align: center;
+	}
+.container .card:hover{
+	transform: translaterY(-15px);
+	box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+	}
+.container .card img{
+	width: 120px;
+	height: 120px;
+	}
+:root{
+	--color1: #fcf887;
+	--color2: #fcc987;
+	--color3: #879afc;
+	--color4: #fc87b1;
+	}
+.box-cards .box{
+	background-color: #ffffff;
+	height: 1620%;
+	width: 200;
+	color: #052660;
+	}
+.box-cards{
+	height: 22PX;
+	margin: 200px auto;
+	margin: 160px auto;
+	display: flex;
+	flex-wrap: wrap
+	justify-content: space-around;
+	align-items: center;
+	}
+		
+.box2{
+	align-items: center;
+	border-top: 8px solid var(--color2);
+	border-bottom: 8px solid var(--color2);
+	}
+.box1{
+	align-items: center;
+	border-top: 8px solid var(--color1);
+	border-bottom: 8px solid var(--color1);
+	}
+.box3{
+	align-items: center;
+	border-top: 8px solid var(--color3);
+	border-bottom: 8px solid var(--color3);
+	}
+.box4{
+	align-items: center;
+	border-top: 8px solid var(--color4);
+	border-bottom: 8px solid var(--color4);
+	}
+.box img{
+	height: 50%;
+	width: 56%;
+	display: block;
+	margin: 0px auto;
+	}
+.box .botton{
+	padding: 9px;
+	width: 80%;
+	font-family: sans-serif;
+	text-align: center;
+	margin: -8px auto;
+	transition: .3s;
+	display: block;
+	position: relative;
+	z-index: 2;
+	font-weight: bold;
+	}
+.botton1{
+	Background-color: var(--color1);
+	}
+.botton2{
+	background-color: var(--color2);
+	}
+.botton3{
+	background-color: var(--color3);
+	}
+.botton4{
+	background-color: var(--color4);
+	}
+.box p{
+	text-align: center;
+	font-family: sans-serif;
+	color: #5d083f;
+	font-size: .9em;
+	width: 80%;
+	margin: 30px auto;
+	}
+.btn-neon{
+	position: relative;
+	display: inline-block;
+	padding: 30xp 30px;
+	color: #0a4118;
+	letter-spacing: 4px;
+	font-size: 20;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0,1s;
+	}
+.btn-neon:hover{
+	background: #a5f4b9;
+	box-shadow: 0 0 10px #a5f4b9, 0 0 40px
+	#a5f4b9, 0 0 80px #a5f4b9;
+	transition-delay: 0s;
+	}
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.logo{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0 40px;
+	line-height: 80px;
+}
+	 
+.nav-menu{
+	Display: flex;
+	margin-right: 40px;
+	list-style: none;
+}	 
+	
+.nav-menu-item{
+	font-size: 18px;
+	margin: 0 10px;
+	line-height: 80px;
+	text-transform: uppercase;
+	width: max-content;
+}
+
+
+.nav-menu-link:hover{
+	background-color: #CBA7E1;
+	transition: 0.5s;
+}
+.card-container{
+	display: flex;
+	width: 399px;
+	height: 170px;
+	background: #A5E7DC;
+	border-radius: 3px;
+	box-shadow: 2px 2px 4px 2px #A5A5E7(0,0,0, .2);
+}
+
+
+.descripcion{
+	background:   #5DD9BE;
+}
+
+.header, .descripcion{
+	padding: 15px;
+	text-align: Center;
+}
+.gato{
+	background-color: #76D7C2 ;
+}
+
+*{
+	margin: 0;
+	padding: 10;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+.header{
+	background-color: #5B287A ;
+	height: 80px;
+	position: fixed;
+	width: 100%	
+}
+.container2{
+	width: 90%;
+	height: 70px;
+}
+*{
+	margin: 0;
+	padding: 10;
+	box-sizing: border-box;
+}
+.container-fluid {
+    padding: 30px 0px;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	width: 100%
+	align-items: center;
+	justify-content: center;
+	font-family: 'nunito',sans-serif;
+	padding: 0 40px;
+	margin: auto;
+}
+.dimension{
+	width: 100%
+}
+
+
+footer .glyphicon {
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: #DAA520;
+}
+
+
+</style>
+</head>
+<body>
+ <header>
+	<!--lo de arriba de logo y eso-->
+<header class="header">
+			<nav class="nav">
+				<a href="#" class="logo nav-link" href="#inicio">
+					<img src="images/logo.png">
+				</a>
+				<ul class="nav-menu">
+					<li class="nav-menu-item">
+						<a href="#acerca" class="menu" >ACERCA DE</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#productos" class="menu">PRODUCTOS</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#tiendas" class="menu">TIENDAS</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#equipo" class="menu">EQUIPO</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#contacto" class="menu">CONTACTO</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	  <div class="jumbotron">   
+	    <h1>Mundo Deportivo</h1>
+		<p>Todo en articulos y marcas reconocidas</p>
+		<form class="form-inline">
+		    <input type="email" size="50" placeholder="Direccion de correo">
+			<button class="btn btn-default btn-lg">Suscribirse</button>
+		</form>
+	  </div>    	
+    </header>
+<!--sección acerca de-->
+<section id="acerca" class="container-fluid">
+<br><br><br>
+    <div class="row">
+	     <div class="col-sm-8">
+		 <div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bA2Vq7Bcwkk" frameborder="0" allowfullscreen style = "margin: 0px; width="145" height="160" Alt="acerca de" align="right"></iframe>	
+		<h4>Somos una empresa que ofrece lo mejor en ropa, calzado,artículos
+		y equipos para todos los deportes con la mas alta calidad y de las 
+		marcas más reconocidas</h4>
+		<p>Fabricamos, importamos y exportamos todo tipo de articulos 
+		depotivos y textiles deportiva para las diferentes áreas del 
+		deporte. Nuestra experiencia en el deporte la garantiza obtener 
+		lo mejor en cada artículo</p>
+		<a href="about.html" class="btn-neon">	
+		Mas Información
+		</a>
+		</div>
+
+	  </div>
+	</div>
+	</section>
+<!--Sección nuestro valores-->
+<br><br>
+ <div class="row">
+         <div class="col-sm-4">
+		 
+		 </div>
+	     <div class="col-sm-8">
+    <section class="container-fluid bg-grey">
+	<img src="images/valores.png" style = "margin: 10px; width="140" height="140" Alt="Valores" align="left"
+	 <h2>Nuestros valores</h2>
+		<h4><strong>MISIÓN:</strong>Satisfacer las necesidades de nuestros 
+		clientes, creando y comercializando artículos de buena calidad.</h4>
+		<P><strong>VISIÓN:</strong>Ser una empresa líder en la venta de 
+		productos deportivos a nivel nacional e internacional, ofreciendo 
+		mercadería deportiva de alta calidad y de las mejores marcas.</p>
+		<P><strong>VALORES:</strong>Compromiso, Honestidad, Innovación y 
+		Respeto.</p >
+		</div>
+	</div>
+	</section>
+	<!--sección Productos-->
+	<section id="productos" class="container-fluid">
+	  <br><br><br><br>
+	  <center> <h2>NUESTRO PRODUCTOS</h2>
+	   <h4>Lo que ofrecemos</h4> </center>
+	   <br>
+	   
+	   <div class="container">
+	<!--imagen1-->
+			<div class="card">
+				<img src="images/imagen1.png" Alt="imagen1">
+				<h4>CALZADO</h4>
+				<p>Lo mejor en calzado deportivo</p>
+			</div>
+	<!--imagen2-->
+		    <div class="card">
+				<img src="images/imagen2.png" Alt="imagen2">
+				<h4>ROPA</h4>
+				<p>Gran variedad de ropa deportiva</p>
+			</div>
+	<!--imagen3-->
+		    <div class="card">
+				<img src="images/imagen3.png" Alt="imagen3">
+				<h4>BALONES</h4>
+				<p>Muchos diseños y colores</p>
+			</div>
+	<!--imagen4-->
+			<div class="container">
+			<div class="card">
+				<img src="images/imagen4.png" Alt="imagen4">
+				<h4>UNIFORMES</h4>
+				<p>Escoge el color y el estilo preferido</p>
+			</div>
+	<!--imagen5-->
+		    <div class="card">
+				<img src="images/imagen5.png" Alt="imagen5">
+				<h4>ACCESORIOS</h4>
+				<p>Selecciona tu accesorio deportivo favorito</p>
+			</div>
+		
+		
+	<!--sección tiendas -->
+	<section id="tiendas" class="container-fluid">
+	<br><br><br><br>
+	  <center> <h2>TIENDAS</h2>
+	   <h4>Nuestras sucursales</h4> </center>
+	   <br>
+	   
+	   <div class="container">
+	<!--imagen1-->
+			<div class="card">
+				<img src="images/Tienda_a.jpg" Alt="Tienda A">
+				<h4>Tienda A</h4>
+				<p>Calzado deportivo</p>
+			</div>
+	<!--imagen2-->
+		    <div class="card">
+				<img src="images/tienda_b.jpg" Alt="Tienda B">
+				<h4>Tienda B</h4>
+				<p>Accesorios acuáticos y aventura</p>
+			</div>
+	<!--imagen3-->
+		    <div class="card">
+				<img src="images/Tienda_c.jpg" Alt="Tienda C">
+				<h4>Tienda C</h4>
+				<p>Material de montaña</p>
+			</div>
+		
+		<!--sección Equipo de trabajo 3-->
+	<section id="equipo" class="container-fluid text-center">
+	 <br><br><br><br>
+	 <center> <h2>EQUIPO DE TRABAJO</h2>
+	   <h4>Asistencia inmediata y personalizada</h4> </center>
+	   <br>
+		<div class="box-cards">
+			<div class="box box1">
+				<img src="images/ser1.png" alt="foto1" align="center">
+				<span class="botton botton1">Gerente general</span>
+				<p> Asignacion de oposiciones,coordinar y analizar las funciones 
+				administrativas. 
+				<h3> <center>Juan Escobar</center> </h3> </p>
+			</div>
+			<div class="box-cards">
+			<div class="box box2">
+				<img src="images/ser2.png" alt="foto2">
+				<span class="botton botton2">Ejecutiva de ventas</span>
+				<p> Obtimizar los resultados de las ventas de la organización.
+				<h3> <center>Adriana Fuentes </center></h3></p>
+			</div>
+			<div class="box-cards">
+			<div class="box box3">
+				<img src="images/ser3.png" alt="foto3">
+				<span class="botton botton3">Grte financiero</span>
+				<p> Gestionar, planificar y controlar las finanzas de la 
+				organización.
+				<h3> <center>Pedro Arana</center></h3></p>
+			</div>
+			<div class="box-cards">
+			<div class="box box4">
+				<img src="images/ser4.png" alt="foto4">
+				<span class="botton botton4">Grte RRHH</span>
+				<p> Planear, coordinar y supervisar las actividades 
+				profesionales.
+				<h3> <center>Vicky Figueroa </center></h3></p>
+			</div>
+			<br><br>
+		</div>
+	</section>
+	<div class="container">
+	<div class="card-container">
+		<div class="gato">
+			
+		<!-- seccion contancto -->
+		
+	<section id="contacto" class="bg-pink">
+	<br>
+		<center><h2>CONTACTO</h2></center>
+		<br>
+		<div class="row">
+			<div class="col-sm-5">
+			<center><h4> Información de contacto:</h4></center>
+			<p><span class="glyphicon glyphicon-envelope"></span>
+			 &#x2709;&#xfe0f; Col. Buenos Aires, Calle lara No.4</p>
+			<p><span class="glyphicon glyphicon-plus"></span>
+			 &#x2795;&#xfe0f; 0000-0000</p>
+			<p><span class="glyphicon glyphicon-cloud"></span>
+			 &#x2601;&#xfe0f; mundodeportivo@gmail.com</p>
+			</div>
+			</div>
+			</div>
+	<div class="col-sm-7">
+	<center>	<form>
+		<div class="row">
+			<div class="col-sm-6 form-group">
+					<center><input class="form-control" name="name" placeholder="Nombre" type="text" required></center>
+						</div>
+						<div class="col-sm-6 form-group">
+						<input class="form-control" name="email" placeholder="E-mail" type="email" required>
+						</div>
+					</div>
+					<textarea class="form-control" name="pregunta" placeholder="preguntate" rows="4"></textarea><br>
+					<div class="row">
+						<div class="col-sm-12 form-group">
+						<button class="btn btn-defaul pull-right" type="submit">Enviar</button>
+						</div>
+					</div>
+				</form></center>
+	</div>
+	</div>
+</div>
+	</section>
+<!-- Seccion mapa-->
+<br><br>
+<section class="dimension">
+	<center><h2>Nuestra ubicacion</h2></center>
+	<div class="row">
+		<div class="col-sm-12">
+		<!-- Asignar alto y ancho con CSS -->
+		<div id="googleMap" style="height:300px;width:100%;"></div>
+		<!-- Agregar Google Maps -->
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script>
+			var myCenter = new google.maps.LatLng(13.702273, -89.141717);
+			function initialize() {
+			var mapProp = {
+			center:myCenter,
+			zoom:15,
+			scrollwheel:true,
+			draggable:true,
+			mapTypeId:google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+		var marker = new google.maps.Marker({
+			position:myCenter,
+		});
+		marker.setMap(map);
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+
+		</div>
+	</div>
+</section>
+	<!--Pie de página-->
+<footer class="container-fluid text-center">
+	<a href="#inicio" title="Ir al inicio">
+	<center><span style='font-size:100px;'>&#127968;</span></center>
+	<span href="#inicio" class="glyphicon glyphicon-home"></span>
+	</a>
+<p>Página creada por: <a href="#inicio" title="Visite nuestro sitio">www.mundodeportivo.com</a></p> 
+</footer>
+
+	<!--Script para añadir desplazamiento suave-->
+	<script>
+		$(document).ready(function(){
+			// Agrega desplazamiento suave a anclas en barra de navegación y pie.
+		$(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+			// Removiendo comportamiento por defecto.
+			event.preventDefault();
+			// Almacenando el contenedor destino.
+			var hash = this.hash;
+			// Agregando desplazamiento suave.
+			// El 900 son los milisegundos para moverse.
+			$('html, body').animate({
+				// Moviendo sitio a contenedor destino.
+				scrollTop: $(hash).offset().top
+			}, 900, function(){
+				// Añade el ancla a la dirección.
+				window.location.hash = hash;
+				});
+			});
+		})
+</script>
+
+
+	
+	</body>
+</html>
